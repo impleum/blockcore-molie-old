@@ -59,6 +59,10 @@ namespace Blockcore.Node
                 case "HOME":
                     nodeSettings = new NodeSettings(networksSelector: HomeCoin.Networks.Networks.HomeCoin, args: args);
                     break;
+
+                case "MOL":
+                    nodeSettings = new NodeSettings(networksSelector: Networks.Molie.Networks.Molie, args: args);
+                    break;
             }
 
             return nodeSettings;

@@ -51,6 +51,7 @@ namespace Blockcore.Node
                 case "XLR":
                 case "IMPLX":
                 case "HOME":
+                case "MOL":
                     nodeBuilder.UsePosConsensus().AddPowPosMining().UseColdStakingWallet();
                     break;
             }
